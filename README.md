@@ -1,25 +1,26 @@
-## NLW Valoriza
+<h1 align="center">Valoriza</h1>
 
-## Regras
+<img align="center" src=".github/preview.png"></img>
 
-- Cadastro de usuário
+## Tecnologias
+Esse projeto foi criado utilizando:
+  <ul>
+    <li>Node</li>
+    <li>Typescript</li>
+    <li>Express</li>
+    <li>JSONWebToken</li>
+  </ul>
 
-    [ x ] Não é permitido cadastrar mais de um usuário com o mesmo e-mail
+## Projeto
+Este projeto tem como finalidade a criação de tags e elogios para promover o reconhecimento em equipe.
 
-    [ x ] Não é permitido cadastrar usuário sem e-mail
+## Como executar
+<ul>
+  <li>Clone o repositório</li>
+  <li>Rode yarn para baixar as dependências</li>
+  <li>Rode yarn typeorm migration:run para criar as tabelas do banco de dados.</li>
+  <li>Rode o yarn dev para iniciar a aplicação que irá rodar na porta 3000</li>
+</ul>
 
-- Cadastro de TAG
-
-    [ x ] Não é permitido cadastrar tag sem nome
-
-    [ x ] Não é permitido cadastrar mais de uma tag com o mesmo nome e-mail
-
-    [ x ] Não é permitido o cadastro por usuários que não seja administradores
-
-- Cadastro de elogios
-
-    [ x ] Não é permitido um usuário cadastrar um elogio para si
-
-    [ x ] Não é permitido cadastrar elogios para usuários inválidos
-
-    [ x ] O usuário precisa estar autenticado na aplicação
+## Licença
+&copy; MIT
